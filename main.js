@@ -34,9 +34,7 @@ function draw() {
     document.body.style.backgroundColor = "red";
   } else if (Math.sqrt((mouseX - 360) ** 2 + (mouseY - 170) ** 2) < 40) {
     document.body.style.backgroundColor = "green";
-  } else {
-    document.body.style.backgroundColor = "white";
-  }
+  } 
 
   // moving blue rect
   if (
